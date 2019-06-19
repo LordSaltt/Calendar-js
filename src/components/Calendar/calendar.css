@@ -1,0 +1,56 @@
+.calendar-container,
+.calendar,
+.calendar-header,
+td,
+tr {
+    padding: 0;
+    margin: 0;
+}
+
+.day,
+.empty-slot,
+.week-day {
+    text-align: center;
+    height: 40px;
+}
+
+.current-day {
+    background-color: #4285f4;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    border-radius: 2%;
+    color: white;
+}
+
+.noWorkDay {
+    color: red;
+}
+
+.month-popup div {
+    padding: 0.3em;
+}
+
+.editor-year {
+    max-width: 3.6em;
+}
+
+.label-month,
+.label-year {
+    font-size: 0.7em;
+}
+
+.nav-month {
+    position: absolute;
+    top: 0.6em;
+    font-size: 0.6em;
+    right:3px;
+}
+
+.btnNav{
+    border-width: 1px;
+    border-color: gray;
+    border-style: solid;
+    padding: 3px;
+    margin: 1px;
+}
